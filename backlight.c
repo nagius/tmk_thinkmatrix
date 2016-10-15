@@ -29,7 +29,7 @@ void init_backlight()
 	TCCR4C = (1 << PWM4D)|(1 << COM4D1);
 	TCCR4D = (0 << WGM41)|(0 << WGM40);
 
-	// Init compare register at OxO
+	// Init compare register at 0
 	OCR4D = 0x0;
 
 	//Initialize port D7 (OC4D) as output
@@ -39,7 +39,7 @@ void init_backlight()
 
 void backlight_set(uint8_t level)
 {
-	// TODO add comment
+	// Set Timer4 compare register to the requested backlight level
 	OCR4D=(uint8_t)((BACKLIGHT_MAX/BACKLIGHT_LEVELS)*level);
 }
 
