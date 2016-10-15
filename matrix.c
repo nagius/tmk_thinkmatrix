@@ -168,7 +168,7 @@ void matrix_init(void)
 	unselect_rows();
 
 	init_cols();
-//	init_leds();
+	init_leds();
 	init_backlight();
 
 	// initialize matrix state: all keys off
