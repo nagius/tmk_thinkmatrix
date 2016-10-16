@@ -1,4 +1,4 @@
-= Documentation, schematics and drawing =
+# Documentation, schematics and drawing
 
 You will find in this directory the files needed to buid the keyboard. Everything is released under GNU/GPLv3 Licence if not specified otherwise.
  
@@ -14,7 +14,7 @@ Please note there is a couple of errors on this PCB design:
  - The diodes are in the wrong way around for the tmk_keyboard firmware, the matrix need to be rotated in the source code. Note this is tmk specific, it does not apply if you're using a qmk_keyboard firmware.
 
 
-= Teensy pinout =
+## Teensy pinout
 
  - Matrix
 
@@ -31,7 +31,7 @@ Please note there is a couple of errors on this PCB design:
  - Backlight: D7
 
 
-= Parts list =
+## Parts list
 
  - 1x  Teensy 2.0
  - 85x Cherry MX switches
@@ -40,7 +40,7 @@ Please note there is a couple of errors on this PCB design:
  - 89x Orange LEDs (1.92V @ 7mA)
  - 43x Resistors 36 ohms
  - 4x  Resistors 200 ohms
- - 1x  Resistors 1.4k ohms
+ - 1x  Resistor 1.4k ohms
  - 1x  Capacitor 100µF
  - 1x  Transistor 2N3904
  - 1x  Transistor PN2907A

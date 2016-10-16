@@ -7,7 +7,7 @@ The keyboard runs on a [Teensy 2.0](http://www.pjrc.com/store/teensy.html). You 
 Images and a buildlog of the keyboard can be found [here](https://geekhack.org/index.php?topic=76167.0).
 
 
-### Cloning, building & flashing
+## Cloning, building & flashing
 
 Since this repository has a submodule the cloning needs an additional argument to init and update the submodule.
 
@@ -19,7 +19,7 @@ make
 
 See [tmk keyboard](https://github.com/tmk/tmk_keyboard) and [Teensy howto](https://www.pjrc.com/teensy/gcc.html) for more informations.
 
-### Update to the lastest version ###
+## Update to the lastest version
 
 ```
 git pull
