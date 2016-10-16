@@ -1,0 +1,314 @@
+eeschema (2013-jul-07)-stable  >> Creation date: mer. 07 sept. 2016 19:30:32 IST
+#Cmp ( order = Reference )
+| C1         47µF       
+| D1         DIODE       
+| D2         DIODE       
+| D3         DIODE       
+| D4         DIODE       
+| D5         DIODE       
+| D6         DIODE       
+| D7         DIODE       
+| D8         DIODE       
+| D9         DIODE       
+| D10        DIODE       
+| D11        DIODE       
+| D12        DIODE       
+| D13        DIODE       
+| D14        DIODE       
+| D15        DIODE       
+| D16        DIODE       
+| D17        DIODE       
+| D18        DIODE       
+| D19        DIODE       
+| D20        DIODE       
+| D21        DIODE       
+| D22        DIODE       
+| D23        DIODE       
+| D24        DIODE       
+| D25        DIODE       
+| D26        DIODE       
+| D27        DIODE       
+| D28        DIODE       
+| D29        DIODE       
+| D30        DIODE       
+| D31        DIODE       
+| D32        DIODE       
+| D33        DIODE       
+| D34        DIODE       
+| D35        DIODE       
+| D36        DIODE       
+| D37        DIODE       
+| D38        DIODE       
+| D39        DIODE       
+| D40        DIODE       
+| D41        DIODE       
+| D42        DIODE       
+| D43        DIODE       
+| D44        DIODE       
+| D45        DIODE       
+| D46        DIODE       
+| D47        DIODE       
+| D48        DIODE       
+| D49        DIODE       
+| D50        DIODE       
+| D51        DIODE       
+| D52        DIODE       
+| D53        DIODE       
+| D54        DIODE       
+| D55        DIODE       
+| D56        DIODE       
+| D57        DIODE       
+| D58        DIODE       
+| D59        DIODE       
+| D60        DIODE       
+| D61        DIODE       
+| D62        DIODE       
+| D63        DIODE       
+| D64        DIODE       
+| D65        DIODE       
+| D66        DIODE       
+| D67        DIODE       
+| D68        DIODE       
+| D69        DIODE       
+| D70        DIODE       
+| D71        DIODE       
+| D72        DIODE       
+| D73        DIODE       
+| D74        DIODE       
+| D75        DIODE       
+| D76        DIODE       
+| D77        DIODE       
+| D78        DIODE       
+| D79        DIODE       
+| D80        DIODE       
+| D81        DIODE       
+| D82        DIODE       
+| D83        DIODE       
+| D84        DIODE       
+| D85        DIODE       
+| L1         LED         
+| L2         LED         
+| L3         LED         
+| L4         LED         
+| L5         LED         
+| L6         LED         
+| L7         LED         
+| L8         LED         
+| L9         LED         
+| L10        LED         
+| L11        LED         
+| L12        LED         
+| L13        LED         
+| L14        LED         
+| L15        LED         
+| L16        LED         
+| L17        LED         
+| L18        LED         
+| L19        LED         
+| L20        LED         
+| L21        LED         
+| L22        LED         
+| L23        LED         
+| L24        LED         
+| L25        LED         
+| L26        LED         
+| L27        LED         
+| L28        LED         
+| L29        LED         
+| L30        LED         
+| L31        LED         
+| L32        LED         
+| L33        LED         
+| L34        LED         
+| L35        LED         
+| L36        LED         
+| L37        LED         
+| L38        LED         
+| L39        LED         
+| L40        LED         
+| L41        LED         
+| L42        LED         
+| L43        LED         
+| L44        LED         
+| L45        LED         
+| L46        LED         
+| L47        LED         
+| L48        LED         
+| L49        LED         
+| L50        LED         
+| L51        LED         
+| L52        LED         
+| L53        LED         
+| L54        LED         
+| L55        LED         
+| L56        LED         
+| L57        LED         
+| L58        LED         
+| L59        LED         
+| L60        LED         
+| L61        LED         
+| L62        LED         
+| L63        LED         
+| L64        LED         
+| L65        LED         
+| L66        LED         
+| L67        LED         
+| L68        LED         
+| L69        LED         
+| L70        LED         
+| L71        LED         
+| L72        LED         
+| L73        LED         
+| L74        LED         
+| L75        LED         
+| L76        LED         
+| L77        LED         
+| L78        LED         
+| L79        LED         
+| L80        LED         
+| L81        LED         
+| L82        LED         
+| L83        LED         
+| L84        LED         
+| L85        LED         
+| L86        LED         
+| L87        LED         
+| L88        LED         
+| L89        LED         
+| Q1         2N3904      
+| Q2         PN2907A     
+| R1         1.47k       
+| R2         200 ohm     
+| R3         200 ohm     
+| R4         200 ohm     
+| R5         200 ohm     
+| R6         36 ohm      
+| R7         36 ohm      
+| R8         36 ohm      
+| R9         36 ohm      
+| R10        36 ohm      
+| R11        36 ohm      
+| R12        36 ohm      
+| R13        36 ohm      
+| R14        36 ohm      
+| R15        36 ohm      
+| R16        36 ohm      
+| R17        36 ohm      
+| R18        36 ohm      
+| R19        36 ohm      
+| R20        36 ohm      
+| R21        36 ohm      
+| R22        36 ohm      
+| R23        36 ohm      
+| R24        36 ohm      
+| R25        36 ohm      
+| R26        36 ohm      
+| R27        36 ohm      
+| R28        36 ohm      
+| R29        36 ohm      
+| R30        36 ohm      
+| R31        36 ohm      
+| R32        36 ohm      
+| R33        36 ohm      
+| R34        36 ohm      
+| R35        36 ohm      
+| R36        36 ohm      
+| R37        36 ohm      
+| R38        36 ohm      
+| R39        36 ohm      
+| R40        36 ohm      
+| R41        36 ohm      
+| R42        36 ohm      
+| R43        36 ohm      
+| R44        36 ohm      
+| R45        36 ohm      
+| R46        36 ohm      
+| R47        36 ohm      
+| R48        36 ohm      
+| SW0:0      ESC         
+| SW0:1      F1          
+| SW0:2      F2          
+| SW0:3      F3          
+| SW0:4      F4          
+| SW0:5      F5          
+| SW0:6      DEL         
+| SW0:7      F6          
+| SW0:8      F7          
+| SW0:9      F8          
+| SW0:10     F9          
+| SW0:11     F10         
+| SW0:12     F11         
+| SW0:13     F12         
+| SW1:0      BTICK       
+| SW1:1      1           
+| SW1:2      2           
+| SW1:3      3           
+| SW1:4      4           
+| SW1:5      5           
+| SW1:6      BS          
+| SW1:7      6           
+| SW1:8      7           
+| SW1:9      8           
+| SW1:10     9           
+| SW1:11     0           
+| SW1:12     MIN         
+| SW1:13     EQL         
+| SW2:0      TAB         
+| SW2:1      Q           
+| SW2:2      W           
+| SW2:3      E           
+| SW2:4      R           
+| SW2:5      T           
+| SW2:7      Y           
+| SW2:8      U           
+| SW2:9      I           
+| SW2:10     O           
+| SW2:11     P           
+| SW2:12     LSRQB       
+| SW2:13     RSQRB       
+| SW3:0      LSHIFT      
+| SW3:1      A           
+| SW3:2      S           
+| SW3:3      D           
+| SW3:4      F           
+| SW3:5      G           
+| SW3:6      ENTER       
+| SW3:7      H           
+| SW3:8      J           
+| SW3:9      K           
+| SW3:10     L           
+| SW3:11     COL         
+| SW3:12     QUOT        
+| SW3:13     RSHIFT      
+| SW4:1      Z           
+| SW4:2      X           
+| SW4:3      C           
+| SW4:4      V           
+| SW4:5      B           
+| SW4:7      N           
+| SW4:8      M           
+| SW4:9      COM         
+| SW4:10     DOT         
+| SW4:11     SLASH       
+| SW4:12     BSLASH      
+| SW5:0      LCTRL       
+| SW5:1      MENU        
+| SW5:2      PUP         
+| SW5:3      LOCK        
+| SW5:4      FN          
+| SW5:6      MSHIFT      
+| SW5:7      SPACE       
+| SW5:9      INF         
+| SW5:10     HOME        
+| SW5:11     UP          
+| SW5:12     END         
+| SW5:13     RCTRL       
+| SW6:1      LSUPER      
+| SW6:2      PDOWN       
+| SW6:3      LALT        
+| SW6:9      RALT        
+| SW6:10     LEFT        
+| SW6:11     DOWN        
+| SW6:12     RIGHT       
+| U1         TEENSY2.0   
+#End Cmp
