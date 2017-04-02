@@ -9,6 +9,10 @@ Images and a buildlog of the keyboard can be found [here](https://geekhack.org/i
 
 ## Cloning, building & flashing
 
+You need the AVR cross-compilation toolstack to compile the firmware.
+
+See [tmk keyboard](https://github.com/tmk/tmk_keyboard) and [Teensy howto](https://www.pjrc.com/teensy/gcc.html) for more informations.
+
 Since this repository has a submodule the cloning needs an additional argument to init and update the submodule.
 
 ```
@@ -17,7 +21,18 @@ cd tmk_thinkmatrix
 make
 ```
 
-See [tmk keyboard](https://github.com/tmk/tmk_keyboard) and [Teensy howto](https://www.pjrc.com/teensy/gcc.html) for more informations.
+This will generate the firmware file `thinkmatrix-fw.hex`.
+
+### Upload
+
+Start the graphical [loader tool](https://www.pjrc.com/teensy/loader_linux.html) :
+
+```
+teensy.64bit &
+```
+
+Plug the Teensy on USB, push the program button, select the generated file `thinkmatrix-fw.hex` and click 'Upload'.
+
 
 ## Update to the lastest version
 
