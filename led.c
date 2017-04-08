@@ -24,7 +24,12 @@
 
 void init_leds()
 {
-	// Configure port C7, B6, D6 as output
+	// Timer4 initialized in backlight.c
+	// Init compare register at 0 for C7 and B6
+	OCR4A = 0x0;
+	OCR4B = 0x0;
+
+	// Configure port C7 (OC4A), B6 (OC4B) and D6 as output
 	DDRC |= (1<<7);
 	DDRB |= (1<<6);
 	DDRD |= (1<<6);
@@ -39,9 +44,9 @@ void led_set(uint8_t usb_led)
 	}
 
 	if (usb_led & (1<<USB_LED_NUM_LOCK)) {
-		PORTC |= (1<<7);
+		OCR4A = FRONTLED_LEVEL;
 	} else {
-		PORTC &= ~(1<<7);
+		OCR4A = 0x0;
 	}
 }
 
@@ -50,9 +55,9 @@ void hook_layer_change(uint32_t layer_state)
 {
 	// Switch on led when layer 1 is active
 	if(layer_state & (1UL<<1)) {
-		PORTB |= (1<<6);
+		OCR4B = FRONTLED_LEVEL;
 	} else {
-		PORTB &= ~(1<<6);
+		OCR4B = 0x0;
 	}
 }
 

@@ -40,6 +40,9 @@
 /* number of backlight levels */
 #define BACKLIGHT_LEVELS 10
 
+/* PWM intensity for front leds */
+#define FRONTLED_LEVEL 20
+
 /* key combination for command */
 #define IS_COMMAND() ( \
     keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_LCTRL) | MOD_BIT(KC_LALT) )\

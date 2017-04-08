@@ -25,11 +25,13 @@
 void init_backlight()
 {
 	// Set 8-bit fast PWM mode with no prescaling on Timer4
+	// for output OC4A (C7), OC4B (B6) and OC4D (D7)
+	TCCR4A = (1 << PWM4A)|(1 << PWM4B)|(1 << COM4A1)|(1 << COM4B1);
 	TCCR4B = (1 << CS40);
-	TCCR4C = (1 << PWM4D)|(1 << COM4D1);
+	TCCR4C = (1 << PWM4D)|(1 << COM4D1)|(1 << COM4A1S)|(1 << COM4B1S);
 	TCCR4D = (0 << WGM41)|(0 << WGM40);
 
-	// Init compare register at 0
+	// Init compare register at 0 for D7
 	OCR4D = 0x0;
 
 	//Initialize port D7 (OC4D) as output
