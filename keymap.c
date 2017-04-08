@@ -72,7 +72,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * |---------------------------------------------------------------------|
      * |    |    |    |    |    |    | Vol|    |    |    |    |    |    |    |
      * |-----------------------------|  Up|----------------------------------|
-     * |    |    |    |    | Bl+|    |    |    |    |PgUp| Tab|  / |  * |  - |
+     * |    |    |    |    | Bl+|    |    |    |    |PgUp|Back|  / |  * |  - |
      * |---------------------------------------------------------------------|
      * |    |    |    |    | Bl~|    | Vol|    |    |PgDn|  7 |  8 |  9 |    |
      * |Caps|------------------------|Down|-----------------------------|  + |
@@ -87,7 +87,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP( PAUS, TRNS, PMNS, PPLS, PENT, \
             SLCK, TRNS, PAST, P9, P6, P3, PDOT, \
             PSCR, TRNS, PSLS, P8, P5, P2, P0, \
-            WAKE, TRNS, TAB,  P7, P4, P1, P0, \
+            WAKE, TRNS, BSPC, P7, P4, P1, P0, \
             SLEP, TRNS, PGUP, PGDN, TRNS, DELETE, TRNS, \
             PWR,  TRNS, TRNS, TRNS, TRNS, \
             EJCT, TRNS, TRNS, TRNS, TRNS, MUTE, \
