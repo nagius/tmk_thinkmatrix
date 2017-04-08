@@ -25,7 +25,7 @@
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0xBB00
 #define MANUFACTURER    NicolasAgius
-#define DEVICE_VER      0x0100
+#define DEVICE_VER      0x0101
 #define PRODUCT         ThinkMatrix Keyboard
 
 #define DESCRIPTION     Custom mechanical Matrix keyboard

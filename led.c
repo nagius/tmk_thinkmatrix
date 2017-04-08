@@ -24,10 +24,10 @@
 
 void init_leds()
 {
-	// Configure port D1, D6, F6 as output
-	DDRD |= (1<<1);
+	// Configure port C7, B6, D6 as output
+	DDRC |= (1<<7);
+	DDRB |= (1<<6);
 	DDRD |= (1<<6);
-	DDRF |= (1<<6);
 }
 
 void led_set(uint8_t usb_led)
@@ -39,9 +39,9 @@ void led_set(uint8_t usb_led)
 	}
 
 	if (usb_led & (1<<USB_LED_NUM_LOCK)) {
-		PORTF |= (1<<6);
+		PORTC |= (1<<7);
 	} else {
-		PORTF &= ~(1<<6);
+		PORTC &= ~(1<<7);
 	}
 }
 
@@ -50,9 +50,9 @@ void hook_layer_change(uint32_t layer_state)
 {
 	// Switch on led when layer 1 is active
 	if(layer_state & (1UL<<1)) {
-		PORTD |= (1<<1);
+		PORTB |= (1<<6);
 	} else {
-		PORTD &= ~(1<<1);
+		PORTB &= ~(1<<6);
 	}
 }
 
